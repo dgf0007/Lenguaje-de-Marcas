@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="play.css" type="text/css"?>
+
+<!DOCTYPE playstore SYSTEM "videojuego.dtd">
+
+<playstore> <!-- Hay uno o mas videojuegos-->
+    <videojuego consola="ps4"> <!-- Este atributo es obligatorio-->
+       <titulo>Call Of Dutty Warzone 2</titulo> 
+       <precio>39.99€</precio>
+       <pegi>18</pegi>
+       <genero>violence, shoots</genero>
+       <genero>Assasins</genero>
+    </videojuego>
+
+    <videojuego consola="pc">
+        <titulo>Sekiro: Shadows Die Twice</titulo> 
+        <precio descuento="20%">69.99€</precio> <!-- Atributo descuento es opcional-->
+        <pegi>18</pegi>
+        <genero>violence</genero>
+        <descripcion>Este juego fue GOTTY</descripcion>
+     </videojuego>
+
+     <!-- Vamos a crear un documento XSD, para definir mnuestra estrucura de XMl-->
+</playstore>

@@ -1,0 +1,14 @@
+<!ELEMENT playstore (videojuego)+>
+<!ATTLIST videojuego consola CDATA #REQUIRED>
+
+<!ELEMENT videojuego (titulo, precio, pegi, genero*, descripcion?)> <!-- En el mismo orden que en el html-->
+<!ATTLIST libro formato CDATA "tapa blanda"> <!-- Valor por defecto-->
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio descuento CDATA #IMPLIED>
+<!ELEMENT pegi (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>

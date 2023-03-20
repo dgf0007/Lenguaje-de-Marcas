@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" action="paginaphp.php">
+        Name: <input type="text" name="nombre" size="30" minlength="5" maxlength="7"> <br> <br>
+        Pass: <input type="password" name="psw" size="30" minlength="5" maxlength="7"> <br> <br>
+        Coment: <textarea name="comentario" id="" cols="0" rows="4"></textarea> <br> <br>
+
+        Hobbies <br><br>
+        <input type="checkbox" name="cine"> Cinema<br>
+        <input type="checkbox" name="Sport"> Sports <br>
+        <input type="checkbox" name="coches"> Cars <br>
+        <input type="checkbox" name="coca-cola"> Coca-Cola <br>
+
+        Hobbies con radio <br><br>
+        <input type="radio" value="1" name="hobby"> Cinema<br>
+        <input type="radio" value="1" name="hobby"> Sports <br>
+        <input type="radio" value="1" name="hobby"> Cars <br>
+        <input type="radio" value="1" name="hobby"> Coca-Cola <br> <br>
+        <input type="submit" value="hobby"> <br><br>
+
+        Lista desplegable <br> <br>
+
+        <select name="hobbiesLista" id="">
+            <option value="">Choose your option</option>
+            <option value="">Cinema</option>
+            <option value="">Sport</option>
+            <option value="">Cars</option>
+            <option value="">Football</option>
+
+        </select> <br>
+
+        Lista <br> <br>
+        <select multiple name='Lista2[]'>
+            Lista <br> <br>
+
+            <option value="1">Choose your option</option>
+            <option value="2">Sport & cars</option>
+            <option value="3">Art</option>
+            <option value="4">Music</option>
+            <option value="5">Other</option>
+        </select>
+        <input type="submit" value="Enviar"> <br> <br>
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+table {
+    border: 2px solid red;
+    margin-bottom: 3%;
+    /* border-collapse: collapse; */
+    border-spacing: 0.5 rem;
+    width: 30%;
+    table-layout: fixed;
+    empty-cells: hide;
+}
+
+thead {
+    color: red;
+
+}
+
+td {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 2px solid blue;
+}
+
+td:hover {
+    background-color: lightblue;
+    transition-duration: 0.5s;
+}
+
+tr td {
+    border-color: blue;
+    border-radius: 1%;
+}
+
+caption {
+    background-color: yellow;
+    color: blue;
+}

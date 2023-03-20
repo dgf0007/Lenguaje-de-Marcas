@@ -1,0 +1,21 @@
+.p3 {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+}
+
+.p3::first-line {
+    text-transform: uppercase;
+}
+
+.p3::first-letter {
+    font-size: 1.5rem;
+}
+
+.p3::before {
+    content: "Sinopsis: ";
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+    
+}

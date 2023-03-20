@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tabla parte 2</title>
+</head>
+
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid rgb(5, 5, 5);
+        text-align: center;
+        empty-cells: hide;
+    }
+</style>
+
+<body>
+
+    <table border="1">
+        <caption>KM/DÍA</caption>
+        <thead>
+            <th style="border:0px ;"></th>
+            <th style="background-color:red ;">Día 1</th>
+            <th style="background-color:red ;">Día 2</th>
+            <th style="background-color:red ;">Día 3</th>
+        </thead>
+
+        <tbody style="background-color:yellow ;">
+            <tr style="background-color: pink ;">
+                <td>Jose</td>
+                <td rowspan="2">0 km</td>
+                <td>1 km</td>
+                <td>5 km</td>
+            </tr>
+
+            <tr>
+                <td>Rocio</td>
+                <td>2 km</td>
+                <td>9 km</td>
+            </tr>
+
+        </tbody>
+
+        <tbody style="background-color:green ;">
+            <tr>
+                <td>Jose</td>
+                <td rowspan="2">0 km</td>
+                <td>1 km</td>
+                <td>5 km</td>
+            </tr>
+
+            <tr>
+                <td>Rocio</td>
+                <td>2 km</td>
+                <td>9 km</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <th>total</th>
+            <th colspan="4">10 km</th>
+
+        </tfoot>
+    </table>
+
+</body>
+
+</html>

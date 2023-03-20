@@ -1,0 +1,25 @@
+<!-- * es 0 o mas-->
+<!-- + es 1 o mas-->
+<!-- 0 o 1-->
+
+<!-- Los atributos tmb hay que definirlos-->
+<!-- #Required; Es un campo requerido-->
+<!-- #impi3e: -->
+<!-- #valor-->
+
+<!ELEMENT biblioteca (libro)+>
+<!ATTLIST biblioteca ciudad CDATA #REQUIRED>
+
+<!ELEMENT libro (titulo, (autor|autora), paginas, editorial?, categoria*)> <!-- En el mismo orden que en el html-->
+<!ATTLIST libro formato CDATA "tapa blanda"> <!-- Valor por defecto-->
+<!-- La interrogación al final, indica que puede tener editorial o no-->
+<!-- El asterisco al final, indica que puede tener mas de un elemento (categoria)-->
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo subtitulo CDATA #IMPLIED> <!-- Valor opcional-->
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT autora (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT paginas (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>

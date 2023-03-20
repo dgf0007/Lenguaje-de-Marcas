@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<!DOCTYPE biblioteca SYSTEM "libro.dtd"> <!-- Para validar se recomienda quitar errores de abajo a arriba-->
+
+<biblioteca ciudad="Malaga"> <!-- Es como una class o id-->
+    <libro formato="tapa dura">
+    <titulo subtitulo="De Medac">El famacéutico</titulo>
+    <autor>Newt</autor>
+    <paginas>50</paginas>
+    <categoria>Acción</categoria>
+    <categoria>salute</categoria>
+</libro>
+
+<libro formato="tapa blanda">
+    <titulo>Von Neuman</titulo>
+    <autora>Salvadora</autora>
+    <paginas>10</paginas>
+    <editorial>Sistemas</editorial>
+    
+</libro>
+</biblioteca>

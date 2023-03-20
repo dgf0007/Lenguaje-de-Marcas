@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definir el espacio de nombre que va a ocupar el objeto-->
+
+    <libro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="libro.xsd"
+    formato="tapa dura">
+    <titulo subtitulo="De Medac">El famacéutico</titulo>
+    <autor>Newt</autor>
+    <paginas>50</paginas>
+    
+
+</libro>

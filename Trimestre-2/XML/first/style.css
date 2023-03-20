@@ -1,0 +1,35 @@
+* {
+    display: block;
+}
+
+biblioteca { /*Es el elemento raíz */
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+biblioteca::before { /* Para añadir texto sin tocar XML, en este caso biblioteca */
+    content:"Mis libros ";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+titulo::before {
+    font-weight: bold;
+    content: "Título ";
+}
+
+autor::before {
+    content: "Author/a ";
+    font-weight: bold;
+}
+paginas::before {
+    content: "Nª páginas ";
+    font-weight: bold;
+}
+
+libro {
+    width: 300px;
+    background-color: lightcoral;
+    border-bottom: 5px solid coral;
+    margin-left: 5px;
+}

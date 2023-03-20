@@ -1,0 +1,42 @@
+li {
+    font-size: 15px; /* Para cambiar el tamaño de la lista */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Para cambiar lka fuente de la lista */
+}
+
+li::first-letter { /* Para cambiar de tamaño la primera letra */
+    font-size: 1.3rem;
+}
+
+li:nth-child(odd) { /* Para hacer uno si uno no, con el resto */
+    background-color: grey;
+    color: white;
+}
+
+li:nth-child(odd):hover { /* Para cambiar el color del fondo al poner el cursor */
+    background-color: darkgreen
+}
+
+li:nth-child(even) { /* Para hacer uno si uno no */
+    background-color: green;
+    color: black;
+}
+
+li:nth-child(even):hover {
+    background-color: darkgray;
+}
+
+li:nth-child(3) {
+    background-color: grey;
+    color: white;
+}
+
+li:nth-child(5) {
+    background-color: grey;
+    color: white;
+}
+
+.lista1 {
+    list-style-image: url("/icons8-youtube-16.png"); /* Para poner una imagen a la izquierda de la lista, sustituyendo el "." */
+    list-style-position: inside; /* Para poner el icono dentro del backgoundo */
+}
+

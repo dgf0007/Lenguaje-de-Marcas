@@ -1,0 +1,19 @@
+table caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: violet;
+}
+thead tr:first-child {
+    background-color: purple;
+}
+
+tr:nth-child(even) {
+    background-color:palevioletred;
+}
+tr:nth-child(even):hover {
+    background-color: pink;
+}
+
+tr:nth-child(2n+3):hover { /* Primero colorea el tercero y ya, el salto es el 2n, y el aumento es el 3 */
+    background-color: lightgray;
+}

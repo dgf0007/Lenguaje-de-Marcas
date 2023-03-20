@@ -1,0 +1,46 @@
+div.caja-padre { /* Para aplicar a los div con esa clase */
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 10px solid blue;
+    position: sticky;
+    top: 50px;
+}
+
+div.caja-hija {
+    width: 100%;
+    height: 50%;
+    background-color: yellow;
+    border: 10px solid orange;
+    box-sizing: border-box; /* Por defecto el box-sizing aplica content-box */ /* Para ajustar el borde dentro de un contendor se utiliza bordex-box */
+}
+
+ul.menu-horizontal {
+    background-color: olivedrab;
+    padding: 10px;
+    list-style-type: none;
+   /* position: sticky;
+    top: 0;
+    left: 0; */
+}
+
+ul.menu-horizontal li {
+    display: inline; /* Para poner una lista en una línea */
+    margin: 2%;
+    background-color: greenyellow;
+    padding: 10px;   
+}
+
+ul.menu-horizontal li:hover {
+    background-color: olivedrab;
+    transition-duration: 0.5s;
+}
+
+ul.menu-horizontal li:hover a { /* Se aplica el estilo a toda la zona */
+    color: yellowgreen;
+}
+
+ul.menu-horizontal a {
+    text-decoration: none;
+    color: olivedrab;
+}

@@ -1,0 +1,53 @@
+* {
+    display: block;
+}
+
+playstore { /*Es el elemento raíz */
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+videojuego {
+    margin-left: 5px;
+    margin-bottom: 2%;
+    line-height: 1.5;
+    border: 2px solid red;
+    width: 300px;
+    float: center;
+}
+
+
+playstore::before { /* Para añadir texto sin tocar XML, en este caso biblioteca */
+    content:"Playstore ";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+titulo::before {
+    font-weight: bold;
+    content: "Título: ";
+}
+
+precio::before {
+    content: "Precio: ";
+    font-weight: bold;
+}
+pegi::before {
+    content: "Pegi: ";
+    font-weight: bold;
+}
+
+genero::before {
+    content: "Genero: ";
+    font-weight: bold;
+}
+
+
+
+libro {
+    width: 300px;
+    background-color: lightcoral;
+    border-bottom: 5px solid coral;
+    margin-left: 5px;
+}

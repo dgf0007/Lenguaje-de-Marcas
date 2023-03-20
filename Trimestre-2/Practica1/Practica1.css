@@ -1,0 +1,149 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#p1 {
+    border: 5px solid rgb(7, 91, 201);
+    background-color: lightblue;
+    padding: 1em;
+    text-align: center;
+}
+
+#table1 {
+    text-align: center;
+    border: 5px solid lightgray;
+    border-bottom: 5px solid rgb(7, 91, 201) ;
+    border-right: 5px solid rgb(7, 91, 201);
+    margin-left: 5%;
+    margin-right: 5%;
+    empty-cells: hide;
+    width: 80.7% ;
+    border-spacing: 4px;
+}
+
+#table1 caption {
+    background-color: lightblue;
+    caption-side: bottom;
+    color: rgb(7, 91, 201);
+    text-decoration: underline;
+}
+
+#table1 thead tr:first-child {
+    background-color: rgb(7, 91, 201);
+    color:rgb(3, 90, 119);
+}
+
+#table1 tr:nth-child(even) {
+    background-color: lightblue;
+    color: blue;
+  }
+#table1 tr:nth-child(odd) {
+  background-color: lightgray;
+  color: gray;
+}
+
+#table1 tr:nth-child(even):hover {
+    background-color: lightgray;
+  }
+#table1 tr:nth-child(odd):hover {
+  background-color: lightblue;
+}
+
+#t1 {
+    color:rgb(7, 91, 201);
+    text-decoration: underline dashed;
+    font-size: 22px;
+    margin-left: 6%;
+}
+
+#t2 {
+    font-size: 18px;
+    
+}
+
+#list {
+    margin-top: 2%;
+    background-color: lightblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 5px solid lightgray;
+    border-bottom: 5px solid rgb(7, 91, 201) ;
+    border-right: 5px solid rgb(7, 91, 201);
+    width: 80%;
+    list-style-position: inside;
+    color: gray;
+
+}
+
+#list li:active {
+    color:  rgb(7, 91, 201);
+}
+#list li:hover {
+  background-color: rgb(13, 64, 158);
+}
+
+#list li:focus {
+  color: blue;
+}
+
+#table2 {
+    background-color: lightblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80.7%;
+    text-align: center;
+    border: 5px solid lightgray;
+    border-bottom: 5px solid rgb(7, 91, 201) ;
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+}
+
+#table2 td {
+  border-right: 5px solid blue;
+
+}
+
+
+#table2 caption {
+    background-color: lightblue;
+    margin-top: 2%;
+    color:rgb(7, 91, 201);
+    text-decoration: underline;
+}
+
+#table2 thead tr:first-child {
+    background-color: rgb(7, 91, 201);
+    color:rgb(3, 90, 119);
+}
+
+#table2 tr:nth-child(even) {
+    background-color: lightblue;
+  }
+#table2 tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+#table2 tr:nth-child(even):hover {
+    background-color: lightgray;
+  }
+#table2 tr:nth-child(odd):hover {
+  background-color: lightblue;
+}
+
+#last {
+    border: 4px solid lightgray;
+    border-bottom: 5px solid rgb(7, 91, 201);
+    border-right: 5px solid rgb(7, 91, 201);
+    margin-top: 4%;
+    width: 80%;
+    height: 20%;
+    color: gray;
+    background-color: lightblue;
+    line-height: 2;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 2;
+    font-size: 17px;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+  <producto productoID="01">
+    <nombre>Producto 1</nombre>
+    <marca>Marca 1</marca>
+    <precio>10.99</precio>
+    <edadRecomendada>+13</edadRecomendada>
+    <categoria>Comic</categoria>
+    <categoria>Manga</categoria>
+  </producto>
+  <producto productoID="02">
+    <nombre>Producto 2</nombre>
+    <marca>Marca 2</marca>
+    <precio>20.99</precio>
+    <pegi>PEGI 16</pegi>
+    <categoria>Juego de Mesa</categoria>
+  </producto>
+</tienda>
